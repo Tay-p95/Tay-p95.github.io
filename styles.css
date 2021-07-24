@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("mono-fashion.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    color: #BFBEBE;
+    
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+
+.btn-xl {
+padding: 1rem 2rem;
+
+}
+
+.btn-primary {
+    background-color: darkorange;
+    border-color: darkorange;
+}
+
+.btn-primary:hover {
+ background-color: orangered;
+ border-color: orangered;
+ border-width: 3px;
+}
+
+.buffer {
+    height: 35px;
+}
